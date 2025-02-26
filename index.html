@@ -8,23 +8,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Uncial+Antiqua&family=Cormorant+Garamond:wght@400&family=IM+Fell+English&display=swap');
 
 body {
-    font-family: 'Cormorant Garamond', serif; /* Classic and elegant for readability */
-    background-color: #e5d5b3; /* Aged parchment color */
+    font-family: 'Cormorant Garamond', serif;
+    background-color: #f8f8f8; /* Light gray for contrast */
     color: #1a1a1a;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #3a1f04; /* Deep brown, like aged leather */
-    color: #f5e1c8;
+    background-color: #000;
+    color: #fff;
     text-align: center;
     padding: 20px;
-    border-bottom: 5px solid #8b4513; /* Old-style border */
+    border-bottom: 5px solid #555;
 }
 
 header h1 {
-    font-family: 'MedievalSharp', cursive; /* Gothic medieval-style font */
+    font-family: 'MedievalSharp', cursive;
     font-size: 3.5em;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -37,10 +37,10 @@ header h1 {
 }
 
 nav {
-    background-color: #5a3825; /* Dark brown for an aged look */
+    background-color: #222;
     padding: 10px;
     text-align: center;
-    border-bottom: 3px solid #8b4513;
+    border-bottom: 3px solid #555;
 }
 
 nav ul {
@@ -55,7 +55,7 @@ nav ul li {
 
 nav ul li a {
     font-family: 'IM Fell English', serif;
-    color: #f5e1c8;
+    color: #fff;
     text-decoration: none;
     font-weight: bold;
     font-size: 1.1em;
@@ -65,35 +65,37 @@ main {
     padding: 20px;
     max-width: 800px;
     margin: auto;
-    background-color: #fdf8e7;
+    background-color: #fff;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
-    border: 2px solid #5a3825;
+    border: 2px solid #222;
 }
 
 article h2 {
     font-family: 'MedievalSharp', cursive;
     font-size: 2.8em;
-    border-bottom: 2px solid #3a1f04;
+    border-bottom: 2px solid #000;
     padding-bottom: 5px;
 }
 
-.article-meta {
-    font-family: 'IM Fell English', serif;
-    font-size: 1em;
-    font-style: italic;
-    color: #5a3825;
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 0.9em;
+    border-top: 3px solid #555;
 }
 
 .related-articles {
     margin-top: 30px;
-    padding-top: 15px;
-    border-top: 2px solid #8b4513;
+    padding: 15px;
+    background-color: #f0f0f0;
+    border-left: 5px solid #000;
 }
 
 .related-articles h3 {
-    font-family: 'MedievalSharp', cursive;
-    font-size: 1.8em;
-    color: #3a1f04;
+    font-family: 'IM Fell English', serif;
 }
 
 .related-articles ul {
@@ -102,28 +104,19 @@ article h2 {
 }
 
 .related-articles ul li {
-    margin: 10px 0;
+    margin-bottom: 8px;
 }
 
 .related-articles ul li a {
-    font-family: 'IM Fell English', serif;
     text-decoration: none;
-    font-size: 1.1em;
-    color: #5a3825;
+    color: #222;
     font-weight: bold;
 }
 
-footer {
-    background-color: #3a1f04;
-    color: #f5e1c8;
-    text-align: center;
-    padding: 10px;
-    margin-top: 20px;
-    font-size: 0.9em;
-    border-top: 3px solid #8b4513;
+.related-articles ul li a:hover {
+    text-decoration: underline;
 }
-
-</style>
+    </style>
 </head>
 <body>
     <header>
@@ -144,8 +137,8 @@ footer {
     <main>
         <article>
             <h2>Gising Na Pilipinas</h2>
-            <p class="article-meta">By Anonymous | August 12, 2019</p>
- <p>“Wake up Philippines!”</p>
+            <p><strong>By Anonymous | August 12, 2019</strong></p>
+            <p>“Wake up Philippines!”</p>
             
             <p>That’s what foreigners say—urging us to wake up, to see the injustices, to recognize the corruption, to acknowledge the crimes committed by those in power. But what about us, the people of the Philippines? What do we have to say? This is a story from a local’s perspective.</p>
             
@@ -164,10 +157,11 @@ footer {
         <section class="related-articles">
             <h3>Related Articles</h3>
             <ul>
-                <li><a href="#">The Fight for Press Freedom in Southeast Asia</a></li>
-                <li><a href="#">How History Repeats Itself: Lessons from Martial Law</a></li>
-                <li><a href="#">The True Cost of Corruption in Developing Nations</a></li>
-                <li><a href="#">Voices of the People: A Collection of Protest Stories</a></li>
+                <li><a href="#">The Fight for Press Freedom in the Philippines</a></li>
+                <li><a href="#">Martial Law: Lessons from History</a></li>
+                <li><a href="#">How Corruption Affects the Everyday Filipino</a></li>
+                <li><a href="#">A Look at the 1986 People Power Revolution</a></li>
+                <li><a href="#">Understanding the Modern Philippine Political Landscape</a></li>
             </ul>
         </section>
     </main>
