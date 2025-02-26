@@ -1,161 +1,141 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="1894.7">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
-    span.Apple-tab-span {white-space:pre}
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Inkwell</title>
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Uncial Antiqua&family=Cormorant+Garamond:wght@400&family=IM+Fell+English&display=swap');
+
+body {
+    font-family: 'Cormorant Garamond', serif; /* Classic and elegant for readability */
+    background-color: #e5d5b3; /* Aged parchment color */
+    color: #1a1a1a;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3a1f04; /* Deep brown, like aged leather */
+    color: #f5e1c8;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 5px solid #8b4513; /* Old-style border */
+}
+
+header h1 {
+    font-family: 'MedievalSharp', cursive; /* Gothic medieval-style font */
+    font-size: 3.5em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.tagline {
+    font-family: 'IM Fell English', serif;
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+nav {
+    background-color: #5a3825; /* Dark brown for an aged look */
+    padding: 10px;
+    text-align: center;
+    border-bottom: 3px solid #8b4513;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    font-family: 'IM Fell English', serif;
+    color: #f5e1c8;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background-color: #fdf8e7;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    border: 2px solid #5a3825;
+}
+
+article h2 {
+    font-family: 'MedievalSharp', cursive;
+    font-size: 2.8em;
+    border-bottom: 2px solid #3a1f04;
+    padding-bottom: 5px;
+}
+
+.article-meta {
+    font-family: 'IM Fell English', serif;
+    font-style: italic;
+    font-size: 1em;
+    color: #5a3825;
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #3a1f04;
+    color: #f5e1c8;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 0.9em;
+    border-top: 3px solid #8b4513;
+}
+
+</style>
 </head>
 <body>
-<p class="p1">&lt;!DOCTYPE html&gt;</p>
-<p class="p1">&lt;html lang="en"&gt;</p>
-<p class="p1">&lt;head&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta charset="UTF-8"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;title&gt;The Inkwell&lt;/title&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;style&gt;</p>
-<p class="p1">@import url('https://fonts.googleapis.com/css2?family=Uncial Antiqua&amp;family=Cormorant+Garamond:wght@400&amp;family=IM+Fell+English&amp;display=swap');</p>
-<p class="p2"><br></p>
-<p class="p1">body {</p>
-<p class="p1"><span class="Apple-converted-space">    </span>font-family: 'Cormorant Garamond', serif; /* Classic and elegant for readability */</p>
-<p class="p1"><span class="Apple-converted-space">    </span>background-color: #e5d5b3; /* Aged parchment color */</p>
-<p class="p1"><span class="Apple-converted-space">    </span>color: #1a1a1a;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>margin: 0;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>padding: 0;</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">header {</p>
-<p class="p1"><span class="Apple-converted-space">    </span>background-color: #3a1f04; /* Deep brown, like aged leather */</p>
-<p class="p1"><span class="Apple-converted-space">    </span>color: #f5e1c8;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>text-align: center;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>padding: 20px;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>border-bottom: 5px solid #8b4513; /* Old-style border */</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">header h1 {</p>
-<p class="p1"><span class="Apple-converted-space">    </span>font-family: 'MedievalSharp', cursive; /* Gothic medieval-style font */</p>
-<p class="p1"><span class="Apple-converted-space">    </span>font-size: 3.5em;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>letter-spacing: 2px;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>text-transform: uppercase;</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">.tagline {</p>
-<p class="p1"><span class="Apple-converted-space">    </span>font-family: 'IM Fell English', serif;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>font-style: italic;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>font-size: 1.2em;</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">nav {</p>
-<p class="p1"><span class="Apple-converted-space">    </span>background-color: #5a3825; /* Dark brown for an aged look */</p>
-<p class="p1"><span class="Apple-converted-space">    </span>padding: 10px;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>text-align: center;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>border-bottom: 3px solid #8b4513;</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">nav ul {</p>
-<p class="p1"><span class="Apple-converted-space">    </span>list-style: none;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>padding: 0;</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">nav ul li {</p>
-<p class="p1"><span class="Apple-converted-space">    </span>display: inline;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>margin: 0 15px;</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">nav ul li a {</p>
-<p class="p1"><span class="Apple-converted-space">    </span>font-family: 'IM Fell English', serif;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>color: #f5e1c8;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>text-decoration: none;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>font-weight: bold;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>font-size: 1.1em;</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">main {</p>
-<p class="p1"><span class="Apple-converted-space">    </span>padding: 20px;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>max-width: 800px;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>margin: auto;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>background-color: #fdf8e7;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);</p>
-<p class="p1"><span class="Apple-converted-space">    </span>border: 2px solid #5a3825;</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">article h2 {</p>
-<p class="p1"><span class="Apple-converted-space">    </span>font-family: 'MedievalSharp', cursive;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>font-size: 2.8em;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>border-bottom: 2px solid #3a1f04;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>padding-bottom: 5px;</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">.article-meta {</p>
-<p class="p1"><span class="Apple-converted-space">    </span>font-family: 'IM Fell English', serif;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>font-style: italic;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>font-size: 1em;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>color: #5a3825;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>margin-bottom: 15px;</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">footer {</p>
-<p class="p1"><span class="Apple-converted-space">    </span>background-color: #3a1f04;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>color: #f5e1c8;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>text-align: center;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>padding: 10px;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>margin-top: 20px;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>font-size: 0.9em;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>border-top: 3px solid #8b4513;</p>
-<p class="p1">}</p>
-<p class="p2"><br></p>
-<p class="p1">&lt;/style&gt;</p>
-<p class="p1">&lt;/head&gt;</p>
-<p class="p1">&lt;body&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;header&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;h1&gt;The Inkwell&lt;/h1&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;p class="tagline"&gt;Bringing You the News, One Drop of Ink at a Time&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/header&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;nav&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;ul&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;li&gt;&lt;a href="#"&gt;Home&lt;/a&gt;&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;li&gt;&lt;a href="#"&gt;World&lt;/a&gt;&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;li&gt;&lt;a href="#"&gt;Politics&lt;/a&gt;&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;li&gt;&lt;a href="#"&gt;Culture&lt;/a&gt;&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;li&gt;&lt;a href="#"&gt;Opinion&lt;/a&gt;&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;li&gt;&lt;a href="#"&gt;Business&lt;/a&gt;&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;li&gt;&lt;a href="#"&gt;Technology&lt;/a&gt;&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/ul&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/nav&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;main&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;article&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2&gt;Gising Na Pilipinas&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p class="article-meta"&gt;By Anonymous | August 12, 2019&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">       </span>&lt;p&gt;“Wake up Philippines!”&lt;/p&gt;</p>
-<p class="p2"><span class="Apple-converted-space">            </span></p>
-<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;p&gt;That’s what foreigners say—urging us to wake up, to see the injustices, to recognize the corruption, to acknowledge the crimes committed by those in power. But what about us, the people of the Philippines? What do we have to say? This is a story from a local’s perspective.&lt;/p&gt;</p>
-<p class="p2"><span class="Apple-converted-space">            <span class="Apple-tab-span">	</span></span></p>
-<p class="p1"><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span><span class="Apple-tab-span">	</span>&lt;p&gt;I wasn’t born in the Philippines, but I have lived here my entire life. This is my home. I am a citizen. I was 10 when Rodrigo Duterte was proclaimed president on May 30, 2016. The adults around me who supported him dismissed my thoughts, telling me I was too young to have an opinion. But I do have one.&lt;/p&gt;</p>
-<p class="p2"><span class="Apple-converted-space">            </span></p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p&gt;People say I have been influenced by the West, that I don’t understand my own country. But I do. I have studied our bayanis, read our famous literature, learned about our diverse tribes and cultures before Spanish colonization, and taught myself the Filipino language. I have earned the right to voice my thoughts on our government. And what do I see? Corruption. It has always been corrupt. From the moment Emilio Aguinaldo sold our country to the Americans, we have been drowned by leaders who put their own interests above the people.&lt;/p&gt;</p>
-<p class="p2"><span class="Apple-converted-space">            </span></p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p&gt;History repeats itself. We overthrew a dictator in 1986, only to see the same cycle of corruption persist. We cried out against extrajudicial killings, yet we allowed a man who bragged about them to lead us. We fought for democracy, yet we surrender it time and time again for the illusion of order.&lt;/p&gt;</p>
-<p class="p2"><span class="Apple-converted-space">            </span></p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p&gt;We are a nation that has suffered, endured, and survived. But when will we thrive? When will we refuse to be silenced? When will we finally wake up?&lt;/p&gt;</p>
-<p class="p2"><span class="Apple-converted-space">            </span></p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p&gt;To those who still believe that the system works for the people—look again. Look at the families who have lost loved ones to the drug war, their cries ignored. Look at the journalists silenced for telling the truth. Look at the poverty-stricken communities that remain unseen by those in power. Look at our history and ask yourself: how much longer will we allow this cycle to continue?&lt;/p&gt;</p>
-<p class="p2"><span class="Apple-converted-space">            </span></p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p&gt;Gising na, Pilipinas. Our country deserves better. And it starts with us.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/article&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/main&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;footer&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;p&gt;&amp;copy; 2025 The Inkwell. All rights reserved.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/footer&gt;</p>
-<p class="p1">&lt;/body&gt;</p>
-<p class="p1">&lt;/html&gt;</p>
-<p class="p2"><br></p>
-<p class="p2"><span class="Apple-converted-space">            </span></p>
-<p class="p2"><span class="Apple-converted-space">     </span></p>
+    <header>
+        <h1>The Inkwell</h1>
+        <p class="tagline">Bringing You the News, One Drop of Ink at a Time</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">World</a></li>
+            <li><a href="#">Politics</a></li>
+            <li><a href="#">Culture</a></li>
+            <li><a href="#">Opinion</a></li>
+            <li><a href="#">Business</a></li>
+            <li><a href="#">Technology</a></li>
+        </ul>
+    </nav>
+    <main>
+        <article>
+            <h2>Gising Na Pilipinas</h2>
+            <p class="article-meta">By Anonymous | August 12, 2019</p>
+            <p>“Wake up Philippines!”</p>
+            
+            <p>That’s what foreigners say—urging us to wake up, to see the injustices, to recognize the corruption, to acknowledge the crimes committed by those in power. But what about us, the people of the Philippines? What do we have to say? This is a story from a local’s perspective.</p>
+            
+            <p>I wasn’t born in the Philippines, but I have lived here my entire life. This is my home. I am a citizen. I was 10 when Rodrigo Duterte was proclaimed president on May 30, 2016. The adults around me who supported him dismissed my thoughts, telling me I was too young to have an opinion. But I do have one.</p>
+            
+            <p>People say I have been influenced by the West, that I don’t understand my own country. But I do. I have studied our bayanis, read our famous literature, learned about our diverse tribes and cultures before Spanish colonization, and taught myself the Filipino language. I have earned the right to voice my thoughts on our government. And what do I see? Corruption. It has always been corrupt. From the moment Emilio Aguinaldo sold our country to the Americans, we have been drowned by leaders who put their own interests above the people.</p>
+            
+            <p>History repeats itself. We overthrew a dictator in 1986, only to see the same cycle of corruption persist. We cried out against extrajudicial killings, yet we allowed a man who bragged about them to lead us. We fought for democracy, yet we surrender it time and time again for the illusion of order.</p>
+            
+            <p>We are a nation that has suffered, endured, and survived. But when will we thrive? When will we refuse to be silenced? When will we finally wake up?</p>
+            
+            <p>To those who still believe that the system works for the people—look again. Look at the families who have lost loved ones to the drug war, their cries ignored. Look at the journalists silenced for telling the truth. Look at the poverty-stricken communities that remain unseen by those in power. Look at our history and ask yourself: how much longer will we allow this cycle to continue?</p>
+            
+            <p>Gising na, Pilipinas. Our country deserves better. And it starts with us.</p>
+        </article>
+    </main>
+    <footer>
+        <p>&copy; 2025 The Inkwell. All rights reserved.</p>
+    </footer>
 </body>
 </html>
