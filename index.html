@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Inkwell</title>
     <style>
-@import url('https://fonts.googleapis.com/css2?family=Uncial Antiqua&family=Cormorant+Garamond:wght@400&family=IM+Fell+English&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Uncial+Antiqua&family=Cormorant+Garamond:wght@400&family=IM+Fell+English&display=swap');
 
 body {
     font-family: 'Cormorant Garamond', serif; /* Classic and elegant for readability */
@@ -79,10 +79,38 @@ article h2 {
 
 .article-meta {
     font-family: 'IM Fell English', serif;
-    font-style: italic;
     font-size: 1em;
+    font-style: italic;
     color: #5a3825;
-    margin-bottom: 15px;
+}
+
+.related-articles {
+    margin-top: 30px;
+    padding-top: 15px;
+    border-top: 2px solid #8b4513;
+}
+
+.related-articles h3 {
+    font-family: 'MedievalSharp', cursive;
+    font-size: 1.8em;
+    color: #3a1f04;
+}
+
+.related-articles ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.related-articles ul li {
+    margin: 10px 0;
+}
+
+.related-articles ul li a {
+    font-family: 'IM Fell English', serif;
+    text-decoration: none;
+    font-size: 1.1em;
+    color: #5a3825;
+    font-weight: bold;
 }
 
 footer {
@@ -117,7 +145,7 @@ footer {
         <article>
             <h2>Gising Na Pilipinas</h2>
             <p class="article-meta">By Anonymous | August 12, 2019</p>
-            <p>“Wake up Philippines!”</p>
+ <p>“Wake up Philippines!”</p>
             
             <p>That’s what foreigners say—urging us to wake up, to see the injustices, to recognize the corruption, to acknowledge the crimes committed by those in power. But what about us, the people of the Philippines? What do we have to say? This is a story from a local’s perspective.</p>
             
@@ -133,6 +161,15 @@ footer {
             
             <p>Gising na, Pilipinas. Our country deserves better. And it starts with us.</p>
         </article>
+        <section class="related-articles">
+            <h3>Related Articles</h3>
+            <ul>
+                <li><a href="#">The Fight for Press Freedom in Southeast Asia</a></li>
+                <li><a href="#">How History Repeats Itself: Lessons from Martial Law</a></li>
+                <li><a href="#">The True Cost of Corruption in Developing Nations</a></li>
+                <li><a href="#">Voices of the People: A Collection of Protest Stories</a></li>
+            </ul>
+        </section>
     </main>
     <footer>
         <p>&copy; 2025 The Inkwell. All rights reserved.</p>
