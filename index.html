@@ -8,23 +8,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Uncial+Antiqua&family=Cormorant+Garamond:wght@400&family=IM+Fell+English&display=swap');
 
 body {
-    font-family: 'Cormorant Garamond', serif;
-    background-color: #f8f8f8; /* Light gray for contrast */
-    color: #1a1a1a;
+    font-family: 'Cormorant Garamond', serif; 
+    background-color: #000;
+    color: #f5f5f5;
     margin: 0;
     padding: 0;
+    background-image: url('https://scontent.fyvr2-1.fna.fbcdn.net/v/t39.30808-6/480914821_559193667153669_196467837143291083_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=127cfc&_nc_ohc=CcTlZIZ1wCIQ7kNvgEw7v4d&_nc_oc=Adgp6S_WOxhNDQgAFhzRn05WBuEM8bRRSBGCwSZeTeI05Ht-JX5UOEtPXz11e3B9UFmsZjoUKr0gs9Tb1a8NNzoS&_nc_zt=23&_nc_ht=scontent.fyvr2-1.fna&_nc_gid=AyQmTuDhz8JUU61ECtFeINt&oh=00_AYDqp_cFvY1ktsH5XauW3oS3B8fSycqD5VLO-6s2CgT8eA&oe=67C5980F'); 
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 header {
-    background-color: #000;
-    color: #fff;
+    background-color: rgba(0, 0, 0, 0.85); 
+    color: #f5f5f5;
     text-align: center;
     padding: 20px;
-    border-bottom: 5px solid #555;
+    border-bottom: 3px solid #777;
 }
 
 header h1 {
-    font-family: 'MedievalSharp', cursive;
+    font-family: 'Uncial Antiqua', cursive;
     font-size: 3.5em;
     letter-spacing: 2px;
     text-transform: uppercase;
@@ -37,10 +41,10 @@ header h1 {
 }
 
 nav {
-    background-color: #222;
+    background-color: rgba(30, 30, 30, 0.9);
     padding: 10px;
     text-align: center;
-    border-bottom: 3px solid #555;
+    border-bottom: 2px solid #777;
 }
 
 nav ul {
@@ -55,47 +59,53 @@ nav ul li {
 
 nav ul li a {
     font-family: 'IM Fell English', serif;
-    color: #fff;
+    color: #ddd;
     text-decoration: none;
     font-weight: bold;
     font-size: 1.1em;
 }
 
+nav ul li a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
 main {
     padding: 20px;
-    max-width: 800px;
+    max-width: 900px;
     margin: auto;
-    background-color: #fff;
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
-    border: 2px solid #222;
+    background-color: rgba(0, 0, 0, 0.85);
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.2);
+    border: 2px solid #777;
 }
 
 article h2 {
-    font-family: 'MedievalSharp', cursive;
+    font-family: 'Uncial Antiqua', cursive;
     font-size: 2.8em;
-    border-bottom: 2px solid #000;
+    border-bottom: 2px solid #ccc;
     padding-bottom: 5px;
 }
 
 footer {
-    background-color: #000;
-    color: #fff;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #f5f5f5;
     text-align: center;
     padding: 10px;
     margin-top: 20px;
     font-size: 0.9em;
-    border-top: 3px solid #555;
+    border-top: 2px solid #777;
 }
 
 .related-articles {
     margin-top: 30px;
-    padding: 15px;
-    background-color: #f0f0f0;
-    border-left: 5px solid #000;
+    padding-top: 20px;
+    border-top: 2px solid #777;
 }
 
 .related-articles h3 {
-    font-family: 'IM Fell English', serif;
+    font-family: 'Uncial Antiqua', cursive;
+    font-size: 1.8em;
+    margin-bottom: 10px;
 }
 
 .related-articles ul {
@@ -104,19 +114,21 @@ footer {
 }
 
 .related-articles ul li {
-    margin-bottom: 8px;
+    margin: 10px 0;
 }
 
 .related-articles ul li a {
+    color: #bbb;
+    font-size: 1.1em;
     text-decoration: none;
-    color: #222;
-    font-weight: bold;
 }
 
 .related-articles ul li a:hover {
+    color: #fff;
     text-decoration: underline;
 }
-    </style>
+
+</style>
 </head>
 <body>
     <header>
@@ -137,12 +149,12 @@ footer {
     <main>
         <article>
             <h2>Gising Na Pilipinas</h2>
-            <p><strong>By Anonymous | August 12, 2019</strong></p>
-            <p>“Wake up Philippines!”</p>
+            <p><strong>Writer: Anonymous | Date: August 12, 2019</strong></p>
+            <p>“Wake up, Philippines!”</p>
             
-            <p>That’s what foreigners say—urging us to wake up, to see the injustices, to recognize the corruption, to acknowledge the crimes committed by those in power. But what about us, the people of the Philippines? What do we have to say? This is a story from a local’s perspective.</p>
-            
-            <p>I wasn’t born in the Philippines, but I have lived here my entire life. This is my home. I am a citizen. I was 10 when Rodrigo Duterte was proclaimed president on May 30, 2016. The adults around me who supported him dismissed my thoughts, telling me I was too young to have an opinion. But I do have one.</p>
+			<p>That’s what foreigners say—urging us to wake up, to see the injustices, to recognize the corruption, to acknowledge the crimes committed by those in power. But what about us, the people of the Philippines? What do we have to say? This is a story from a local’s perspective.</p>
+            	
+			<p>I wasn’t born in the Philippines, but I have lived here my entire life. This is my home. I am a citizen. I was 10 when Rodrigo Duterte was proclaimed president on May 30, 2016. The adults around me who supported him dismissed my thoughts, telling me I was too young to have an opinion. But I do have one.</p>
             
             <p>People say I have been influenced by the West, that I don’t understand my own country. But I do. I have studied our bayanis, read our famous literature, learned about our diverse tribes and cultures before Spanish colonization, and taught myself the Filipino language. I have earned the right to voice my thoughts on our government. And what do I see? Corruption. It has always been corrupt. From the moment Emilio Aguinaldo sold our country to the Americans, we have been drowned by leaders who put their own interests above the people.</p>
             
@@ -152,16 +164,16 @@ footer {
             
             <p>To those who still believe that the system works for the people—look again. Look at the families who have lost loved ones to the drug war, their cries ignored. Look at the journalists silenced for telling the truth. Look at the poverty-stricken communities that remain unseen by those in power. Look at our history and ask yourself: how much longer will we allow this cycle to continue?</p>
             
-            <p>Gising na, Pilipinas. Our country deserves better. And it starts with us.</p>
+            <p><strong>Gising na, Pilipinas.</strong> Our country deserves better. And it starts with us.</p>
         </article>
+
         <section class="related-articles">
             <h3>Related Articles</h3>
             <ul>
-                <li><a href="#">The Fight for Press Freedom in the Philippines</a></li>
-                <li><a href="#">Martial Law: Lessons from History</a></li>
-                <li><a href="#">How Corruption Affects the Everyday Filipino</a></li>
-                <li><a href="#">A Look at the 1986 People Power Revolution</a></li>
-                <li><a href="#">Understanding the Modern Philippine Political Landscape</a></li>
+                <li><a href="#">The Cost of Silence: How Journalists Are Targeted</a></li>
+                <li><a href="#">Remembering Martial Law: Lessons from the Past</a></li>
+                <li><a href="#">Democracy or Dictatorship? The Battle for the Philippines</a></li>
+                <li><a href="#">The Struggle of the Urban Poor: Forgotten Voices</a></li>
             </ul>
         </section>
     </main>
